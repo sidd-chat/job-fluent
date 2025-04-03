@@ -26,14 +26,6 @@ export default function RootLayout({
         <body className={`${monaSans.className} antialiased pattern`}>
           {children}
 
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-
-          <SignedIn>
-            <SignOutButton />
-          </SignedIn>
-
           <Toaster />
           {/* <BackgroundBeams/> */}
         </body>
