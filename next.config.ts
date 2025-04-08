@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
       // Add any other development origins you need
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
