@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    allowedDevOrigins: [
+      'http://localhost:3000', // Your frontend origin
+      'http://127.0.0.1:3000', // Alternative localhost
+      // Add any other development origins you need
+    ],
+  },
 };
 
 export default nextConfig;
