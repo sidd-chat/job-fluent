@@ -26,7 +26,3 @@ model Interview {
   coverImage String
   createdAt  DateTime @default(now())
 }
-
-model Hello {
-
-}
